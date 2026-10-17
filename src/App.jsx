@@ -102,34 +102,44 @@ export default function App() {
         </div>
       </section>
 
-      {/* A BANDA & PITCH PARA CONTRATANTES */}
+      {/* A BANDA & HISTÓRIA (COM O NOVO TEXTO) */}
       <section id="sobre" style={{ padding: '80px 16px', backgroundColor: 'rgba(20,20,20,0.5)', borderTop: '1px solid #262626', borderBottom: '1px solid #262626' }}>
         <div style={{ maxWidth: '800px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '32px' }}>
+          
           <div style={{ textAlign: 'center' }}>
-            <h2 style={{ fontSize: '2rem', fontWeight: 800, textTransform: 'uppercase', margin: '0 0 12px 0' }}>A Raiz e a Força ao Vivo</h2>
+            <h2 style={{ fontSize: '2rem', fontWeight: 800, textTransform: 'uppercase', margin: '0 0 12px 0' }}>A Raiz e a Energia na Estrada</h2>
             <div style={{ width: '60px', height: '4px', backgroundColor: '#ff6600', margin: '0 auto', borderRadius: '2px' }}></div>
           </div>
           
           <div style={{ fontSize: '1.05rem', color: '#d1d5db', lineHeight: 1.8, textAlign: 'center', display: 'flex', flexDirection: 'column', gap: '20px' }}>
             <p style={{ margin: 0 }}>
-              Nascida em 2022 em Carazinho (RS), a <strong style={{ color: '#ffffff' }}>Old Democracy</strong> surgiu de uma missão clara: fazer o mais puro rock 'n' roll pulsar com sangue nos olhos e energia máxima nos palcos da região.
-            </p>
-            <p style={{ margin: 0 }}>
-              Com um repertório cirúrgico que passa por monstros como <span style={{ color: '#ff6600', fontWeight: 600 }}>AC/DC, Metallica, Van Halen, Ozzy Osbourne, Tina Turner e Bon Jovi</span> — além daquela pegada eletrizante dos anos 80 de clássicos do cinema —, entregamos um show feito para empolgar, prender a atenção do público e lotar a pista de ponta a ponta.
+              Nascida em meados de 2022 em Carazinho (RS), a <strong style={{ color: '#ffffff' }}>Old Democracy</strong> consolidou-se como referência obrigatória para quem busca o mais puro e visceral rock 'n' roll ao vivo. Mais do que tocar clássicos, a banda entrega uma experiência imersiva e nostálgica que conecta diferentes gerações.
             </p>
           </div>
 
-          {/* DESTAQUE PARA CONTRATANTES */}
-          <div style={{ backgroundColor: '#171717', border: '1px solid rgba(255,102,0,0.4)', borderRadius: '16px', padding: '32px', textAlign: 'left', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}>
-            <h3 style={{ fontSize: '1.25rem', fontWeight: 900, color: '#ff6600', textTransform: 'uppercase', margin: '0 0 12px 0', textAlign: 'center' }}>
-              Por que levar a Old Democracy para o seu evento?
+          {/* O SHOW */}
+          <div style={{ backgroundColor: '#171717', border: '1px solid #262626', borderRadius: '16px', padding: '28px', textAlign: 'center' }}>
+            <h3 style={{ fontSize: '1.25rem', fontWeight: 900, color: '#ff6600', textTransform: 'uppercase', margin: '0 0 12px 0' }}>
+              O Show: O Clássico que o Público Ama
             </h3>
-            <ul style={{ margin: 0, paddingLeft: '20px', color: '#d1d5db', lineHeight: 1.8, fontSize: '1rem', display: 'flex', flexDirection: 'column', gap: '10px' }}>
-              <li><strong style={{ color: '#ffffff' }}>Show de Alto Impacto:</strong> Presença de palco magnética, som encorpado e muita interação com a galera.</li>
-              <li><strong style={{ color: '#ffffff' }}>Segurança para o Negócio:</strong> Público engajado, consumo no bar garantido e pistas vibrando do primeiro ao último acorde.</li>
-              <li><strong style={{ color: '#ffffff' }}>Profissionalismo Total:</strong> Pontualidade, compromisso rigoroso e zero dor de cabeça para produtores e donos de pubs.</li>
-            </ul>
+            <p style={{ fontSize: '1rem', color: '#d1d5db', lineHeight: 1.7, margin: 0 }}>
+              Com um repertório ultra calibrado que passa por monstros sagrados como <span style={{ color: '#ff6600', fontWeight: 600 }}>AC/DC, Metallica, Van Halen, Ozzy Osbourne, Tina Turner e Bon Jovi</span> — além daquela eletricidade inconfundível dos anos 80 inspirada em clássicos do cinema —, o show da Old Democracy é sinônimo de pista cheia, energia lá no alto e muita interatividade com o público.
+            </p>
           </div>
+
+          {/* PROFISSIONALISMO PARA O EVENTO */}
+          <div style={{ backgroundColor: '#171717', border: '1px solid rgba(255,102,0,0.4)', borderRadius: '16px', padding: '28px', textAlign: 'center', boxShadow: '0 10px 30px rgba(0,0,0,0.5)' }}>
+            <h3 style={{ fontSize: '1.25rem', fontWeight: 900, color: '#ff6600', textTransform: 'uppercase', margin: '0 0 12px 0' }}>
+              Profissionalismo para o seu Evento
+            </h3>
+            <p style={{ fontSize: '1rem', color: '#d1d5db', lineHeight: 1.7, margin: '0 0 16px 0' }}>
+              Seja para festivais, pubs, eventos privados ou moto-encontros, entregamos estrutura impecável, pontuação rigorosa de horários e uma performance de palco magnética comandada por <strong style={{ color: '#ffffff' }}>Gabi (vocal), Marcio Paviani (guitarra), Ariel (baixo), Rafa MadVision (bateria) e Willian (teclado)</strong>.
+            </p>
+            <p style={{ fontSize: '1.1rem', color: '#ffffff', fontWeight: 'bold', margin: 0 }}>
+              Quer lotar a sua casa e garantir a entrega perfeita? <span style={{ color: '#ff6600' }}>A Old Democracy faz acontecer.</span>
+            </p>
+          </div>
+
         </div>
       </section>
 
