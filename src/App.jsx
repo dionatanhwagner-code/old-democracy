@@ -13,7 +13,7 @@ export default function App() {
     { name: "Marcio Paviani", role: "Guitarra", img: "/marcio.jpeg", bio: "Riffs marcantes e solos afiados que sustentam a essência do mais puro rock clássico." },
     { name: "Ariel", role: "Baixo", img: "/ariel.jpeg", bio: "O groove e o peso nas quatro cordas que fazem qualquer pista vibrar junto com a banda." },
     { name: "Rafa MadVision", role: "Bateria", img: "/rafa.jpeg", bio: "A energia implacável nas baquetas ditando o ritmo e a pulsação de cada clássico." },
-    { name: "Digão", role: "Teclado", img: "/digao.jpeg", bio: "Camadas harmônicas e timbres clássicos que completam a sonoridade inconfundível da banda." },
+    { name: "Willian", role: "Teclado", img: "/willian.jpeg", bio: "Camadas harmônicas e timbres clássicos que completam a sonoridade inconfundível da banda." },
   ];
 
   return (
